@@ -1,8 +1,24 @@
 {
   "font": {
-    "family": {
-      "sans": { "$value": "system-ui, 'Segoe UI', Roboto, sans-serif", "$type": "fontFamily" },
-      "mono": { "$value": "ui-monospace, Consolas, monospace",         "$type": "fontFamily" }
-    }
+    "chakra":    { "$value": "'Chakra Petch', system-ui, sans-serif",      "$type": "fontFamily" },
+    "schibsted": { "$value": "'Schibsted Grotesk', system-ui, sans-serif", "$type": "fontFamily" },
+    "plex-mono": { "$value": "'IBM Plex Mono', ui-monospace, monospace",   "$type": "fontFamily" },
+    "heading":   { "$value": "{font.chakra}",    "$type": "fontFamily" },
+    "body":      { "$value": "{font.schibsted}", "$type": "fontFamily" },
+    "mono":      { "$value": "{font.plex-mono}", "$type": "fontFamily" }
+  },
+  "text": {
+    "xs":   { "$value": "11px", "$type": "dimension" },
+    "sm":   { "$value": "12px", "$type": "dimension" },
+    "base": { "$value": "14px", "$type": "dimension" },
+    "md":   { "$value": "15px", "$type": "dimension" },
+    "lg":   { "$value": "18px", "$type": "dimension" },
+    "xl":   { "$value": "22px", "$type": "dimension" },
+    "2xl":  { "$value": "27px", "$type": "dimension" }
+  },
+  "weight": {
+    "regular":  { "$value": 400, "$type": "fontWeight" },
+    "medium":   { "$value": 500, "$type": "fontWeight" },
+    "semibold": { "$value": 600, "$type": "fontWeight" }
   }
 }
