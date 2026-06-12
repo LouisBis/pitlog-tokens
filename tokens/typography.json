@@ -1,0 +1,8 @@
+{
+  "font": {
+    "family": {
+      "sans": { "$value": "system-ui, 'Segoe UI', Roboto, sans-serif", "$type": "fontFamily" },
+      "mono": { "$value": "ui-monospace, Consolas, monospace",         "$type": "fontFamily" }
+    }
+  }
+}
