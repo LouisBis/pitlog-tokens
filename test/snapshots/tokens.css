@@ -1,0 +1,37 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-400: #94a3b8;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-750: #263248;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-orange-400: #fb923c;
+  --color-orange-500: #f97316;
+  --color-red-500: #ef4444;
+  --color-amber-500: #f59e0b;
+  --color-green-500: #22c55e;
+  --accent-subtle: rgba(249, 115, 22, 0.12);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --font-family-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-family-mono: ui-monospace, Consolas, monospace;
+  --background-base: var(--color-slate-900);
+  --background-surface: var(--color-slate-800);
+  --background-elevated: var(--color-slate-750);
+  --border-default: var(--color-slate-700);
+  --border-subtle: var(--color-slate-800);
+  --text-primary: var(--color-slate-100);
+  --text-secondary: var(--color-slate-400);
+  --text-muted: var(--color-slate-600);
+  --accent-default: var(--color-orange-500);
+  --accent-text: var(--color-orange-400);
+  --status-danger: var(--color-red-500);
+  --status-warning: var(--color-amber-500);
+  --status-success: var(--color-green-500);
+}
