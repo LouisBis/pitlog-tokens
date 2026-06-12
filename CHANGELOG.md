@@ -1,6 +1,16 @@
-# Changelog
+# Changelog <!-- markdownlint-disable MD024 -->
 
 All notable changes to `@louisbis/pitlog-tokens` will be documented here.
+
+## [1.1.0] - 2026-06-12
+
+### Added
+
+- Typography scale: `--font-size-{xs|sm|base|lg|xl|2xl}`, `--font-weight-{regular|medium|semibold|bold}`, `--font-line-height-{tight|normal|relaxed}`
+- Spacing scale (4px base, rem): `--space-{1|2|3|4|5|6|8|10|12|16}`
+- Border radius: `--radius-{none|sm|base|md|lg|xl|full}`
+- Z-index scale: `--z-{base|raised|dropdown|sticky|overlay|modal|toast|tooltip}`
+- Transitions: `--duration-{fast|base|slow}`, `--easing-{default|in|out}`
 
 ## [1.0.0] - 2026-06-12
 
