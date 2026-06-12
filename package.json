@@ -10,6 +10,8 @@
   ],
   "scripts": {
     "build": "node sd.config.js",
+    "test": "node test/snapshot.test.js",
+    "test:update": "node test/update-snapshots.js",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
